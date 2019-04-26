@@ -1,0 +1,21 @@
+{
+  "name": "marksheet-creater",
+  "version": "1.0.0",
+  "description": "a marksheet creator app for 11th and 12th ",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager .  --platform=win32 --overwrite ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayur Saptal",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.0",
+    "electron-packager": "^13.0.1"
+  },
+  "dependencies": {
+    "convert-excel-to-json": "^1.6.0",
+    "html-pdf": "^2.2.0"
+  }
+}
